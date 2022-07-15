@@ -58,6 +58,7 @@ public class MainApplication extends Application implements ReactApplication {
 
     // Custom fonts
     ReactFontManager.getInstance().addCustomFont(this, "Poppins", R.font.poppins);
+    ReactFontManager.getInstance().addCustomFont(this, "Lato", R.font.lato);
 
     // If you opted-in for the New Architecture, we enable the TurboModule system
     ReactFeatureFlags.useTurboModules = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
