@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "svgr:build": "npx @svgr/cli --native --typescript --index-template svgr.template.js --out-dir src/components/Icon -- src/assets/icons"
   },
   "dependencies": {
     "react": "18.0.0",
