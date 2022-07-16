@@ -11,8 +11,11 @@
     "svgr:build": "npx @svgr/cli --native --typescript --index-template svgr.template.js --out-dir src/components/Icon -- src/assets/icons"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.11",
     "react": "18.0.0",
     "react-native": "0.69.1",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.15.0",
     "react-native-svg": "^12.4.0",
     "stitches-native": "^0.2.0"
   },
