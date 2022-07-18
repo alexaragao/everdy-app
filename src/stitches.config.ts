@@ -77,6 +77,10 @@ export const {
     },
 
     zIndices: {},
+
+    sizes: {
+      "app-margin": 20,
+    },
   },
 
   media: {},
@@ -148,7 +152,7 @@ export const {
 export const darkTheme = createTheme({
   colors: {
     "theme-background": colors["theme-dark-background"],
-    "theme-surface": colors["theme-dark-background"],
+    "theme-surface": colors["theme-dark-surface"],
     "contrast-high": colors["text-white-high-emphasis"],
     "contrast-medium": colors["text-white-medium-emphasis"],
     "contrast-low": colors["text-white-low-emphasis"],
