@@ -8,7 +8,7 @@ const baseColors = {
   "theme-dark-surface": "#2C4529",
   "theme-light-background": "#FFFFFF",
   "theme-light-surface": "#F8F8F8",
-  "theme-divider": "#FFFFFF1F",
+  "theme-divider": "#AAAAAA1F",
   // Text Colors
   "text-white-high-emphasis": "#FFFFFFDE",
   "text-white-medium-emphasis": "#FFFFFF99",
@@ -20,7 +20,7 @@ const baseColors = {
 
 const aliases = {
   "theme-background": baseColors["theme-light-background"],
-  "theme-surface": baseColors["theme-light-background"],
+  "theme-surface": baseColors["theme-light-surface"],
   "contrast-high": baseColors["text-black-high-emphasis"],
   "contrast-medium": baseColors["text-black-medium-emphasis"],
   "contrast-low": baseColors["text-black-low-emphasis"],
